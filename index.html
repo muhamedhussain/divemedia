@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/sty.css">
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/login_effect.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+<title>Dive Media-Home</title>
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "images/A1.jpg"
+var image2 = new Image()
+image2.src = "images/A2.jpg"
+var image3 = new Image()
+image3.src = "images/A3.jpg"
+var image4 = new Image()
+image4.src = "images/A4.jpg"
+var image5 = new Image()
+image5.src = "images/A5.jpg"
+var image6 = new Image()
+image6.src = "images/A6.jpg"
+</script>
+</head>
+<body>
+<div id="header">
+<a href="registration.html">
+<div id="link1"><br>
+REGISTER
+</div></a>
+<a href="login.html">
+<div id="link2"><br>
+LOGIN
+</div></a>
+<a href="#" >
+<div id="link4" data-popup-open="popup-1"><br>
+SEARCH
+</div></a>
+<a href="index.html">
+<div id="link3"><br>
+HOME
+</div></a>
+<img src="images/logomain.png"height="80px" width="250px" ></img>
+
+</div>
+<div id="header2">
+<div id="fonter">
+<br><br>
+DIVE WITH DREAM
+</div>
+<div id="subfonter">
+SWIM TOWARDS SUCCESS
+</div>
+</div>
+<div id="side1">
+<h1>Who?</h1>
+<h4>Folks who are really intreseted in the field of media.And ready to prove. Here you are in the best platform</h4>
+</div>
+<div id="middle1">
+<h1>Where?</h1>
+<h4>Register in Dive Media , with your best work and best info.Impress the recruiters with your profile.</h4>
+</div>
+<div id="side2">
+<h1>Why?</h1>
+<h4>The recruitment in media focused over the best candidates.And oppertunity comes once in a while.
+So Here we provide that oppertunity for you.</h4>
+</div>
+<div id="adv">
+<div id="inneradv1">
+<p><img src="images/A1.jpg"  align="centre" width="1000" height="400" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<6)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",1000);
+        }
+        slideit();
+</script>
+
+</div>
+</div>
+<div id="socio">
+<br>Be in touch with us<br><br>
+<a href="http://www.googleplus.com"><img src="images/gplus.png" height=60 width=60 ></img></a>
+<a href="http://www.twitter.com"><img src="images/twitter.png" height=60 width=60 ></img></a>
+<a href="http://www.facebook.com"><img src="images/facebook.png" height=60 width=60 ></img></a>
+</div>
+
+
+
+<div id="footer">
+  Copy Rights &copy; HFX
+</div>
+
+</body>
+
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+
+      <div id="subfonter">SEARCH YOUR STAR</div>
+      <input type = "text" placeholder="Search!"></input><br>
+      <div id="subfonter">
+      <input type="Button" class="but1" value="Search"></div>
+
+
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+
+    </div>
+</div>
+</html>

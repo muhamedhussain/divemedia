@@ -1,0 +1,179 @@
+body{
+margin:0 auto;
+}
+<aa>
+{
+	align:center;
+}
+#header
+{
+background-color: #433f3d;
+height:10%;
+width:100%;
+position:fixed;
+top:0px;
+left:0px;
+}
+#link1
+{
+background-color: #433f3d;
+color:white;
+height:10%;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+#link2
+{
+background-color: #433f3d;
+height:10%;
+color:white;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+#link3
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:orange;
+font-family:Century Gothic;
+float:right;
+}
+#link4
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:white;
+font-family:Century Gothic;
+float:right;
+}
+#linker
+{
+	float:right;
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+#header2
+{
+background-image:url("3.jpg");
+height:500px;
+width:100%;
+margin:0 100 0 0;
+left:-2px;
+float:left;
+right:0px;
+}
+#side1
+{
+	width:20%;
+	height:30%;
+	float:left;
+	text-align:center;
+	padding-left:50px;
+	font-family:Century Gothic;
+	color:grey;
+}
+#middle1
+{
+	width:20%;
+	height:30%;
+    float:left;
+	text-align:center;
+	padding-left:150px;
+	font-family:Century Gothic;
+	color:grey;
+}
+#side2
+{
+	width:20%;
+	height:30%;
+	float:left;
+	padding-left:190px;
+	text-align:center;
+	font-family:Century Gothic;
+	color:grey;
+}
+#fonter
+{
+	font-size:100;
+	font-family:impact;
+	margin:-120 20 0 0;
+	text-align:center;
+	color:#433f3d;
+}
+#subfonter
+{
+	font-size:30;
+	font-family:impact;
+	margin:0 0 0 0;
+	text-align:center;
+	color:#433f3d;
+}
+#subfonter1
+{
+	font-size:30;
+	font-family:impact;
+	margin:0 0 0 0;
+	text-align:center;
+	color:white;
+}
+#adv
+{
+	background-color:#433f3d;
+	height:400px;
+	width:100%;
+	padding:0px;
+
+}
+#inneradv1
+{
+	background-color:#433f3d;
+	height:420px;
+	width:85%;
+	padding-left:200px;
+	float:left;
+
+
+}
+#socio
+{
+	background-color:white;
+	height:200px;
+	width:100%;
+	margin-top:720px;
+	font-size: 30px;
+	font-family: Century Gothic;
+	text-align: center;
+	padding-left:0px;
+}
+#footer
+{
+	background-color:#433f3d;
+	height:30px;
+	width:100%;
+	margin-top:15;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+	font-family: Century Gothic;
+}
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 700px;
+  height:12%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	padding-left:5px;
+}

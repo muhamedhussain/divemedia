@@ -1,0 +1,144 @@
+#header
+{
+background-color: #433f3d;
+height:10%;
+width:100%;
+position:fixed;
+top:0px;
+left:0px;
+}
+
+body
+{
+background-image:url('blak.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#link1
+{
+background-color: #433f3d;
+color:orange;
+height:10%;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+
+#link2
+{
+background-color: #433f3d;
+height:10%;
+color:white;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+#link3
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:white;
+font-family:Century Gothic;
+float:right;
+}
+<aa>
+{
+	align:center;
+}
+#reghead
+{
+
+	height:25px;
+	width:100%;
+	color:white;
+	font-family:Century Gothic;
+	font-size:40px;
+	margin-top:80px;
+	text-align:center;
+}
+#regform
+{
+
+
+	height:520px;
+	width:700px;
+	margin:-30 0 0 320;
+	font-family:Century Gothic;
+	color:white;
+	padding-left:60px;
+	padding-right:0px;
+	padding-top:80px;
+
+}
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 560px;
+  height:7%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	padding-left:5px;
+}
+input[type="date"] {
+  display: block;
+  margin: 0;
+  width: 560px;
+  height:7%;
+  font-family: sans-serif;
+  color:grey;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	padding-left:5px;
+}
+input[type="password"] {
+  display: block;
+  margin: 0;
+  width: 560px;
+  height:7%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	padding-left:5px;
+}
+input[type="submit"] {
+  background-color:white; width:100px; height:50px; border:0;
+  margin-left:220px;
+  font-family:Century Gothic;
+  font-size:20px;
+  color:black;
+  border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+
+
+}
+input[type="text"]:focus {
+  outline: none;
+}
+#footer
+{
+background-color: #433f3d;
+height:10%;
+width:100%;
+}

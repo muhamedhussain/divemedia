@@ -1,0 +1,47 @@
+<html>
+<head>
+<link href="css/reg.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+<a href="registration.html">
+<div id="link1"><br>
+REGISTER
+</div></a>
+<a href="login.html">
+<div id="link2"><br>
+LOGIN
+</div></a>
+<a href="index.html">
+<div id="link3"><br>
+HOME
+</div></a>
+<img src="images/logomain.png"height="80px" width="250px" ></img>
+</div>
+<div id="reghead">
+Register To Dive
+</div>
+<div id="regform">
+<form method="post" action="php/reg.php">
+<input type="text" name="firstname" placeholder="First name" size="22" align="right"><br>
+
+  <input type="text" name="lastname" placeholder="Second name" size="22">
+  <br>
+   <input type="date" name="dob" placeholder="DD/MM/YYYY" size="22">
+  <br><br>
+     <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <br><br>
+   <input type="text" name="email" placeholder="Email id" size="22" >
+  <br>
+ <input type="password" name="password" placeholder="New Password" size="22" >
+  <br>
+<input type="password" name="conpassword" placeholder="Reconfirm Password" size="22" >
+  <br>
+  <input type="submit" value="Dive">
+  <br>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<html>
+<head>
+  <link href="css/aboutme.css" rel="stylesheet">
+  <script src="js/validation.js">	</script>
+
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/aboutmemain.css">
+</head>
+<body>
+  <div id="header">
+  <a href="registration.html">
+  <div id="link1"><br>
+  SIGNOUT
+  </div></a>
+  <a href="aboutme.html">
+  <div id="link2"><br>
+  ABOUT
+  </div></a>
+  <a href="cover.html">
+  <div id="link3"><br>
+  COVER
+  </div></a>
+  <img src="images/logomain.png"height="80px" width="250px" ></img>
+  </div>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About me </title>
+        <link rel="stylesheet" href="css/normalize.css">
+
+    </head>
+    <body>
+
+      <form action="php/aboutme.php" method="post">
+
+        <h1>ABOUT ME</h1>
+
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="mail">Gender</label>
+          <label>
+          <input type="radio" id="male" value="male" name="gender"> male
+
+          <input type="radio" id="female" value="female" name="gender"> female </label>
+          <label>Date of birth</label>
+          <input type="date" id="under_13"  name="dob"><label for="under_13" class="light"></label>
+          <label for="name">Nationality:</label>
+          <input type="text" id="name" name="nationality">
+          <label for="name">State:</label>
+          <input type="text" id="name" name="state">
+          <label for="name">City:</label>
+          <input type="text" id="name" name="city">
+
+          <label for="number">Mob:</label>
+          <input type="text" id="number" name="phone">
+
+
+
+
+          <label for="mail">Email:</label>
+          <input type="email" id="email" name="email">
+
+
+
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="number">2</span>Your profile</legend>
+          <label for="bio">Biography:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        </fieldset>
+        <fieldset>
+        <label for="job">Profession:</label>
+        <select id="job" name="user_job">
+          <optgroup label="Student">
+            <option value="media" >Media Student</option>
+            <option value="others">Others</option>
+          </optgroup>
+          <optgroup label="Media Person">
+            <option value="Android_developer">Actor</option>
+            <option value="iOS_developer">Director</option>
+            <option value="musicdirectorr">Music Director</option>
+            <option value="lyrisist">Lyrisist</option>
+            <option value="editor">Editor</option>
+            <option value="vfx">VFX</option>
+            <option value="producer">Producer</option>
+            <option value="cinematographer">Cinematographer</option>
+            <option value="photographer">Photographer</option>
+          </optgroup>
+
+          <optgroup label="Other">
+            <option value="business">Business</option>
+            <option value="others">others</option>
+          </optgroup>
+        </select>
+
+          <label>Interests:</label>
+          <input type="checkbox" id="development" value="actor" name="actor"><label class="light" for="development">Actor</label><br>
+            <input type="checkbox" id="design" value="director" name="dir"><label class="light" for="design">Director</label><br>
+          <input type="checkbox" id="business" value="musicdirector" name="mdir"><label class="light" for="business">Music Director</label><br>
+          <input type="checkbox" id="design" value="editor" name="edit"><label class="light" for="design">Editor</label><br>
+          <input type="checkbox" id="design" value="photographer" name="photo"><label class="light" for="design">Photographer</label><br>
+          <input type="checkbox" id="design" value="lyrisist" name="lyr"><label class="light" for="design">Lyrisist/Script Writing</label><br>
+          <input type="checkbox" id="design" value="cinematographer" name="cinem"><label class="light" for="design">Cinematographer</label><br>
+          <input type="checkbox" id="design" value="producer" name="prod"><label class="light" for="design">Producer</label><br>
+          <input type="checkbox" id="design" value="designer" name="design"><label class="light" for="design">Designer</label><br>
+          <input type="checkbox" id="design" value="artdirector" name="adir"><label class="light" for="design">Art Director</label><br>
+
+          <label for="job">Experiance:</label>
+          <select id="job" name="user_exp">
+              <option value="media">0 yrs</option>
+              <option value="others">1-5 yrs</option>
+              <option value="others">5-10 yrs</option>
+              <option value="others">>10 yrs</option>
+            </optgroup>
+          </select>
+
+
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+
+    </body>
+</html>
+</html>

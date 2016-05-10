@@ -1,0 +1,140 @@
+
+body
+{
+	background-image:url('sand.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+  padding: 0;
+  margin:0px
+}
+#prof
+{
+  margin-left:400px;
+  margin-top: 200px;
+  }
+
+#coverhome
+{
+  height:60px;
+  width:240px;
+  margin-top: 30px;
+  margin-left: 90px;
+  color:#f8d9ad;
+  float: left;
+  font-size: 45px;
+  font-family: Century Gothic;
+  border-color:grey;
+  border: 2px solid #547991;
+  text-align: center;
+
+}
+#portfolio
+{
+  height:60px;
+  width:240px;
+  margin-top: 30px;
+  margin-left: 50px;
+float: left;
+border-color:grey;
+border: 2px solid #547991;
+  color:#f8d9ad;
+  font-size: 45px;
+  font-family: Century Gothic;
+text-align: center;
+}
+#cinewalk
+{
+  height:60px;
+  width:240px;
+  margin-top: 30px;
+  margin-left: 80px;
+float: left;
+  color:#f8d9ad;
+  font-size: 45px;
+  font-family: Century Gothic;
+  border-color:grey;
+text-align: center;
+  border: 2px solid #547991;
+
+}
+#aboutme
+{
+  height:60px;
+  width:240px;
+  margin-top: 30px;
+  margin-left: 50px;
+float: left;
+  color:#f8d9ad;
+  font-size: 45px;
+  font-family: Century Gothic;
+  border-color:grey;
+  border: 2px solid #547991;
+text-align: center;
+}
+#header
+{
+background-color: #433f3d;
+height:10%;
+width:100%;
+position:fixed;
+top:0px;
+left:0px;
+}
+#link1
+{
+background-color: #433f3d;
+color:white;
+height:10%;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+#link2
+{
+background-color: #433f3d;
+height:10%;
+color:white;
+width:8%;
+font-family:Century Gothic;
+float:right;
+}
+#link3
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:white;
+font-family:Century Gothic;
+float:right;
+}
+#link4
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:white;
+font-family:Century Gothic;
+float:right;
+}
+#link5
+{
+background-color: #433f3d;
+height:10%;
+width:8%;
+color:orange;
+font-family:Century Gothic;
+float:right;
+}
+
+#ali
+{
+	margin: 20px -33px 0 30px;
+}
+
+#heading
+{
+	font-size:50px;
+	color:white;
+	font-family:Century Gothic;
+	text-align:center;
+}
